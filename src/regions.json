@@ -1,0 +1,911 @@
+[
+ {
+  "region": "01 Amazonas",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Chachapoyas"
+   },
+   {
+    "code": "02",
+    "provincie": "Bagua"
+   },
+   {
+    "code": "03",
+    "provincie": "Bongará"
+   },
+   {
+    "code": "04",
+    "provincie": "Condorcanqui"
+   },
+   {
+    "code": "05",
+    "provincie": "Luya"
+   },
+   {
+    "code": "06",
+    "provincie": "Rodríguez de Mendoza"
+   },
+   {
+    "code": "07",
+    "provincie": "Utcubamba"
+   }
+  ]
+ },
+ {
+  "region": "02 Áncash",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Huaraz"
+   },
+   {
+    "code": "02",
+    "provincie": "Aija"
+   },
+   {
+    "code": "03",
+    "provincie": "Antonio Raymondi"
+   },
+   {
+    "code": "04",
+    "provincie": "Asunción"
+   },
+   {
+    "code": "05",
+    "provincie": "Bolognesi"
+   },
+   {
+    "code": "06",
+    "provincie": "Carhuaz"
+   },
+   {
+    "code": "07",
+    "provincie": "Carlos Fermín Fitzcarrald"
+   },
+   {
+    "code": "08",
+    "provincie": "Casma"
+   },
+   {
+    "code": "09",
+    "provincie": "Corongo"
+   },
+   {
+    "code": "10",
+    "provincie": "Huari"
+   },
+   {
+    "code": "11",
+    "provincie": "Huarmey"
+   },
+   {
+    "code": "12",
+    "provincie": "Huaylas"
+   },
+   {
+    "code": "13",
+    "provincie": "Mariscal Luzuriaga"
+   },
+   {
+    "code": "14",
+    "provincie": "Ocros"
+   },
+   {
+    "code": "15",
+    "provincie": "Pallasca"
+   },
+   {
+    "code": "16",
+    "provincie": "Pomabamba"
+   },
+   {
+    "code": "17",
+    "provincie": "Recuay"
+   },
+   {
+    "code": "18",
+    "provincie": "Santa"
+   },
+   {
+    "code": "19",
+    "provincie": "Sihuas"
+   },
+   {
+    "code": "20",
+    "provincie": "Yungay"
+   }
+  ]
+ },
+ {
+  "region": "03 Apurímac",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Abancay"
+   },
+   {
+    "code": "02",
+    "provincie": "Andahuaylas"
+   },
+   {
+    "code": "03",
+    "provincie": "Antabamba"
+   },
+   {
+    "code": "04",
+    "provincie": "Aymaraes"
+   },
+   {
+    "code": "05",
+    "provincie": "Cotabambas"
+   },
+   {
+    "code": "06",
+    "provincie": "Chincheros"
+   },
+   {
+    "code": "07",
+    "provincie": "Grau"
+   }
+  ]
+ },
+ {
+  "region": "04 Arequipa",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Arequipa"
+   },
+   {
+    "code": "02",
+    "provincie": "Camaná"
+   },
+   {
+    "code": "03",
+    "provincie": "Caravelí"
+   },
+   {
+    "code": "04",
+    "provincie": "Castilla"
+   },
+   {
+    "code": "05",
+    "provincie": "Caylloma"
+   },
+   {
+    "code": "06",
+    "provincie": "Condesuyos"
+   },
+   {
+    "code": "07",
+    "provincie": "Islay"
+   },
+   {
+    "code": "08",
+    "provincie": "La Uniòn"
+   }
+  ]
+ },
+ {
+  "region": "05 Ayacucho",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Huamanga"
+   },
+   {
+    "code": "02",
+    "provincie": "Cangallo"
+   },
+   {
+    "code": "03",
+    "provincie": "Huanca Sancos"
+   },
+   {
+    "code": "04",
+    "provincie": "Huanta"
+   },
+   {
+    "code": "05",
+    "provincie": "La Mar"
+   },
+   {
+    "code": "06",
+    "provincie": "Lucanas"
+   },
+   {
+    "code": "07",
+    "provincie": "Parinacochas"
+   },
+   {
+    "code": "08",
+    "provincie": "Pàucar del Sara Sara"
+   },
+   {
+    "code": "09",
+    "provincie": "Sucre"
+   },
+   {
+    "code": "10",
+    "provincie": "Víctor Fajardo"
+   },
+   {
+    "code": "11",
+    "provincie": "Vilcas Huamán"
+   }
+  ]
+ },
+ {
+  "region": "06 Cajamarca",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Cajamarca"
+   },
+   {
+    "code": "02",
+    "provincie": "Cajabamba"
+   },
+   {
+    "code": "03",
+    "provincie": "Celendín"
+   },
+   {
+    "code": "04",
+    "provincie": "Chota"
+   },
+   {
+    "code": "05",
+    "provincie": "Contumazá"
+   },
+   {
+    "code": "06",
+    "provincie": "Cutervo"
+   },
+   {
+    "code": "07",
+    "provincie": "Hualgayoc"
+   },
+   {
+    "code": "08",
+    "provincie": "Jaén"
+   },
+   {
+    "code": "09",
+    "provincie": "San Ignacio"
+   },
+   {
+    "code": "10",
+    "provincie": "San Marcos"
+   },
+   {
+    "code": "11",
+    "provincie": "San Miguel"
+   },
+   {
+    "code": "12",
+    "provincie": "San Pablo"
+   },
+   {
+    "code": "13",
+    "provincie": "Santa Cruz"
+   }
+  ]
+ },
+ {
+  "region": "07 Callao",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Prov. Const. del Callao"
+   }
+  ]
+ },
+ {
+  "region": "08 Cusco",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Cusco"
+   },
+   {
+    "code": "02",
+    "provincie": "Acomayo"
+   },
+   {
+    "code": "03",
+    "provincie": "Anta"
+   },
+   {
+    "code": "04",
+    "provincie": "Calca"
+   },
+   {
+    "code": "05",
+    "provincie": "Canas"
+   },
+   {
+    "code": "06",
+    "provincie": "Canchis"
+   },
+   {
+    "code": "07",
+    "provincie": "Chumbivilcas"
+   },
+   {
+    "code": "08",
+    "provincie": "Espinar"
+   },
+   {
+    "code": "09",
+    "provincie": "La Convención"
+   },
+   {
+    "code": "10",
+    "provincie": "Paruro"
+   },
+   {
+    "code": "11",
+    "provincie": "Paucartambo"
+   },
+   {
+    "code": "12",
+    "provincie": "Quispicanchi"
+   },
+   {
+    "code": "13",
+    "provincie": "Urubamba"
+   }
+  ]
+ },
+ {
+  "region": "09 Huancavelica",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Huancavelica"
+   },
+   {
+    "code": "02",
+    "provincie": "Acobamba"
+   },
+   {
+    "code": "03",
+    "provincie": "Angaraes"
+   },
+   {
+    "code": "04",
+    "provincie": "Castrovirreyna"
+   },
+   {
+    "code": "05",
+    "provincie": "Churcampa"
+   },
+   {
+    "code": "06",
+    "provincie": "Huaytará"
+   },
+   {
+    "code": "07",
+    "provincie": "Tayacaja"
+   }
+  ]
+ },
+ {
+  "region": "10 Huánuco",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Huánuco"
+   },
+   {
+    "code": "02",
+    "provincie": "Ambo"
+   },
+   {
+    "code": "03",
+    "provincie": "Dos de Mayo"
+   },
+   {
+    "code": "04",
+    "provincie": "Huacaybamba"
+   },
+   {
+    "code": "05",
+    "provincie": "Huamalíes"
+   },
+   {
+    "code": "06",
+    "provincie": "Leoncio Prado"
+   },
+   {
+    "code": "07",
+    "provincie": "Marañón"
+   },
+   {
+    "code": "08",
+    "provincie": "Pachitea"
+   },
+   {
+    "code": "09",
+    "provincie": "Puerto Inca"
+   },
+   {
+    "code": "10",
+    "provincie": "Lauricocha"
+   },
+   {
+    "code": "11",
+    "provincie": "Yarowilca"
+   }
+  ]
+ },
+ {
+  "region": "11 Ica",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Ica"
+   },
+   {
+    "code": "02",
+    "provincie": "Chincha"
+   },
+   {
+    "code": "03",
+    "provincie": "Nasca"
+   },
+   {
+    "code": "04",
+    "provincie": "Palpa"
+   },
+   {
+    "code": "05",
+    "provincie": "Pisco"
+   }
+  ]
+ },
+ {
+  "region": "12 Junín",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Huancayo"
+   },
+   {
+    "code": "02",
+    "provincie": "Concepción"
+   },
+   {
+    "code": "03",
+    "provincie": "Chanchamayo"
+   },
+   {
+    "code": "04",
+    "provincie": "Jauja"
+   },
+   {
+    "code": "05",
+    "provincie": "Junín"
+   },
+   {
+    "code": "06",
+    "provincie": "Satipo"
+   },
+   {
+    "code": "07",
+    "provincie": "Tarma"
+   },
+   {
+    "code": "08",
+    "provincie": "Yauli"
+   },
+   {
+    "code": "09",
+    "provincie": "Chupaca"
+   }
+  ]
+ },
+ {
+  "region": "13 La Libertad",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Trujillo"
+   },
+   {
+    "code": "02",
+    "provincie": "Ascope"
+   },
+   {
+    "code": "03",
+    "provincie": "Bolívar"
+   },
+   {
+    "code": "04",
+    "provincie": "Chepén"
+   },
+   {
+    "code": "05",
+    "provincie": "Julcán"
+   },
+   {
+    "code": "06",
+    "provincie": "Otuzco"
+   },
+   {
+    "code": "07",
+    "provincie": "Pacasmayo"
+   },
+   {
+    "code": "08",
+    "provincie": "Pataz"
+   },
+   {
+    "code": "09",
+    "provincie": "Sánchez Carrión"
+   },
+   {
+    "code": "10",
+    "provincie": "Santiago de Chuco"
+   },
+   {
+    "code": "11",
+    "provincie": "Gran Chimú"
+   },
+   {
+    "code": "12",
+    "provincie": "Virú"
+   }
+  ]
+ },
+ {
+  "region": "14 Lambayeque",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Chiclayo"
+   },
+   {
+    "code": "02",
+    "provincie": "Ferreñafe"
+   },
+   {
+    "code": "03",
+    "provincie": "Lambayeque"
+   }
+  ]
+ },
+ {
+  "region": "15 Lima",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Lima"
+   },
+   {
+    "code": "02",
+    "provincie": "Barranca"
+   },
+   {
+    "code": "03",
+    "provincie": "Cajatambo"
+   },
+   {
+    "code": "04",
+    "provincie": "Canta"
+   },
+   {
+    "code": "05",
+    "provincie": "Cañete"
+   },
+   {
+    "code": "06",
+    "provincie": "Huaral"
+   },
+   {
+    "code": "07",
+    "provincie": "Huarochirí"
+   },
+   {
+    "code": "08",
+    "provincie": "Huaura"
+   },
+   {
+    "code": "09",
+    "provincie": "Oyón"
+   },
+   {
+    "code": "10",
+    "provincie": "Yauyos"
+   }
+  ]
+ },
+ {
+  "region": "16 Loreto",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Maynas"
+   },
+   {
+    "code": "02",
+    "provincie": "Alto Amazonas"
+   },
+   {
+    "code": "03",
+    "provincie": "Loreto"
+   },
+   {
+    "code": "04",
+    "provincie": "Mariscal Ramón Castilla"
+   },
+   {
+    "code": "05",
+    "provincie": "Requena"
+   },
+   {
+    "code": "06",
+    "provincie": "Ucayali"
+   },
+   {
+    "code": "07",
+    "provincie": "Datem del Marañón"
+   },
+   {
+    "code": "08",
+    "provincie": "Putumayo"
+   }
+  ]
+ },
+ {
+  "region": "17 Madre de Dios",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Tambopata"
+   },
+   {
+    "code": "02",
+    "provincie": "Manu"
+   },
+   {
+    "code": "03",
+    "provincie": "Tahuamanu"
+   }
+  ]
+ },
+ {
+  "region": "18 Moquegua",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Mariscal Nieto"
+   },
+   {
+    "code": "02",
+    "provincie": "General Sánchez Cerro"
+   },
+   {
+    "code": "03",
+    "provincie": "Ilo"
+   }
+  ]
+ },
+ {
+  "region": "19 Pasco",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Pasco"
+   },
+   {
+    "code": "02",
+    "provincie": "Daniel Alcides Carrión"
+   },
+   {
+    "code": "03",
+    "provincie": "Oxapampa"
+   }
+  ]
+ },
+ {
+  "region": "20 Piura",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Piura"
+   },
+   {
+    "code": "02",
+    "provincie": "Ayabaca"
+   },
+   {
+    "code": "03",
+    "provincie": "Huancabamba"
+   },
+   {
+    "code": "04",
+    "provincie": "Morropón"
+   },
+   {
+    "code": "05",
+    "provincie": "Paita"
+   },
+   {
+    "code": "06",
+    "provincie": "Sullana"
+   },
+   {
+    "code": "07",
+    "provincie": "Talara"
+   },
+   {
+    "code": "08",
+    "provincie": "Sechura"
+   }
+  ]
+ },
+ {
+  "region": "21 Puno",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Puno"
+   },
+   {
+    "code": "02",
+    "provincie": "Azángaro"
+   },
+   {
+    "code": "03",
+    "provincie": "Carabaya"
+   },
+   {
+    "code": "04",
+    "provincie": "Chucuito"
+   },
+   {
+    "code": "05",
+    "provincie": "El Collao"
+   },
+   {
+    "code": "06",
+    "provincie": "Huancané"
+   },
+   {
+    "code": "07",
+    "provincie": "Lampa"
+   },
+   {
+    "code": "08",
+    "provincie": "Melgar"
+   },
+   {
+    "code": "09",
+    "provincie": "Moho"
+   },
+   {
+    "code": "10",
+    "provincie": "San Antonio de Putina"
+   },
+   {
+    "code": "11",
+    "provincie": "San Román"
+   },
+   {
+    "code": "12",
+    "provincie": "Sandia"
+   },
+   {
+    "code": "13",
+    "provincie": "Yunguyo"
+   }
+  ]
+ },
+ {
+  "region": "22 San Martín",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Moyobamba"
+   },
+   {
+    "code": "02",
+    "provincie": "Bellavista"
+   },
+   {
+    "code": "03",
+    "provincie": "El Dorado"
+   },
+   {
+    "code": "04",
+    "provincie": "Huallaga"
+   },
+   {
+    "code": "05",
+    "provincie": "Lamas"
+   },
+   {
+    "code": "06",
+    "provincie": "Mariscal Cáceres"
+   },
+   {
+    "code": "07",
+    "provincie": "Picota"
+   },
+   {
+    "code": "08",
+    "provincie": "Rioja"
+   },
+   {
+    "code": "09",
+    "provincie": "San Martín"
+   },
+   {
+    "code": "10",
+    "provincie": "Tocache"
+   }
+  ]
+ },
+ {
+  "region": "23 Tacna",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Tacna"
+   },
+   {
+    "code": "02",
+    "provincie": "Candarave"
+   },
+   {
+    "code": "03",
+    "provincie": "Jorge Basadre"
+   },
+   {
+    "code": "04",
+    "provincie": "Tarata"
+   }
+  ]
+ },
+ {
+  "region": "24 Tumbes",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Tumbes"
+   },
+   {
+    "code": "02",
+    "provincie": "Contralmirante Villar"
+   },
+   {
+    "code": "03",
+    "provincie": "Zarumilla"
+   }
+  ]
+ },
+ {
+  "region": "25 Ucayali",
+  "provincies": [
+   {
+    "code": "01",
+    "provincie": "Coronel Portillo"
+   },
+   {
+    "code": "02",
+    "provincie": "Atalaya"
+   },
+   {
+    "code": "03",
+    "provincie": "Padre Abad"
+   },
+   {
+    "code": "04",
+    "provincie": "Purús"
+   }
+  ]
+ }
+]
