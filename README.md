@@ -56,5 +56,31 @@ console.log(ucayali_provincies)
 */
 ```
 
+Inserting into an existing table using Sequelize
+
+```js
+const ubigeo = require('ubigeo')
+const Sequelize = require('sequelize')
+
+const db = new Sequelize('postgres://user:pass@example.com:5432/dbname', {
+  define: {
+    timestamps: false
+  }
+})
+
+const Region = db.define('region', {
+  code: Sequelize.STRING,
+  name: Sequelize.STRING
+})
+
+Region.bulkCreate(ubigeo.regions().get())
+  .then(() => {
+    return Region.findAll({ raw: true });
+  }).then( regions => {
+    console.log(regions)
+    db.close()
+  })
+```
+
 ## License
 MIT
