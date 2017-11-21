@@ -1,0 +1,72 @@
+import regions from './regions.json'
+import districts from './districts.json'
+
+function Ubigeo () {
+  return {
+    regions: getRegions,
+    include: include,
+    find: find,
+    get: get
+  }
+
+  function getRegions () {
+    this.data = regions.map(item => _format(item.region))
+    return this
+  }
+
+  function include () {
+    let values = Object.values(arguments)
+
+    if (values.includes('provincies') || values.includes('districts')) {
+      this.data = this.data.map(item => {
+        item.provincies = values.includes('provincies') ? _getProvincies(item.code) : _getProvinciesWithDistricts(item.code)
+        return item
+      })
+    }
+
+    return this
+  }
+
+  function find (keys) {
+    if (keys) {
+      if ('name' in keys) {
+        this.data = this.data.filter(item => item.name.toLowerCase() === keys.name.toLowerCase())
+      } else if ('code' in keys) {
+        this.data = this.data.filter(item => item.code === keys.code.toString())
+      }
+    }
+
+    return this
+  }
+
+  function get () {
+    return this.data
+  }
+
+  function _format (item) {
+    let temp = item.split(/\s(.*)/)
+
+    return {
+      code: temp[0],
+      name: temp[1]
+    }
+  }
+
+  function _getProvincies (code) {
+    return regions.find(item => _format(item.region).code === code).provincies
+  }
+
+  function _getProvinciesWithDistricts (code) {
+    return districts.filter(item => _format(item.provincie).code === code)
+      .map(item => {
+        let formatProvincie = _format(item.provincie.split(' - ')[1])
+        return {
+          code: formatProvincie.code,
+          name: formatProvincie.name,
+          districts: item.districts
+        }
+      })
+  }
+}
+
+module.exports = Ubigeo()
