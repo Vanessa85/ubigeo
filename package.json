@@ -1,6 +1,6 @@
 {
   "name": "ubigeo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides data about regions, provincies and districts of the country Peru",
   "main": "dist/index.js",
   "files": [
