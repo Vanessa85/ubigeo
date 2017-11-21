@@ -1,7 +1,7 @@
 {
   "name": "ubigeo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Provides data about regions, provincies and districts of the country Peru",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vanessa85/countries-districts.git"
+    "url": "git+https://github.com/Vanessa85/ubigeo.git"
   },
   "author": "Vanessa M. Paco Ramos <vanessapr.85@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Vanessa85/countries-districts/issues"
+    "url": "https://github.com/Vanessa85/ubigeo/issues"
   },
-  "homepage": "https://github.com/Vanessa85/countries-districts#readme",
+  "homepage": "https://github.com/Vanessa85/ubigeo#readme",
   "babel": {
     "presets": [
       "es2015"
