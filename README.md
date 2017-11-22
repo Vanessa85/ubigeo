@@ -1,31 +1,26 @@
 # Ubigeo
 Provides data about regions, provincies and districts of the country Peru.
 
+Ubigeo son las siglas oficiales para Código de UBIcación GEOgráfica,1​ que usa el INEI para codificar las circunscripciones territoriales del Perú [wikipedia](https://es.wikipedia.org/wiki/Ubigeo).
+
+
 ## Install
 ```sh
 npm install --save ubigeo
 yarn add ubigeo
 ```
 
-## API
-```
-regions(): Returns all regions
-find(keys): Filters regions by keys ({code: 'xxx'} or {name: 'xxxx'})
-include(param): Includes in the data, 'provincies' or 'districts'
-get(): Is neccesary to specify it the final for to return the result
-```
-
 ## Usage
 ```js
 const ubigeo = require('ubigeo')
 
-let regions = ubigeo.regions().get()
-let regions_provincies = ubigeo.regions().include('provincies').get()
-let regions_districts = ubigeo.regions().include('districts').get()
+let regions = ubigeo.data
+let regions_provincies = ubigeo.include('provincies').data
+let regions_districts = ubigeo.include('districts').data
 
-let ucayali = ubigeo.regions().find({ name: 'ucayali' }).get()
-let ucayali_provincies = ubigeo.regions().find({ name: 'ucayali' }).include('provincies').get()
-let ucayali_districts = ubigeo.regions().find({ name: 'ucayali' }).include('districts').get()
+let ucayali = ubigeo.find({ name: 'ucayali' }).data // {code: 'xxx'} or {name: 'xxx'}
+let ucayali_provincies = ubigeo.find({ name: 'ucayali' }).include('provincies').data
+let ucayali_districts = ubigeo.find({ name: 'ucayali' }).include('districts').data
 
 console.log(ucayali_provincies)
 /*
@@ -73,7 +68,7 @@ const Region = db.define('region', {
   name: Sequelize.STRING
 })
 
-Region.bulkCreate(ubigeo.regions().get())
+Region.bulkCreate(ubigeo.data)
   .then(() => {
     return Region.findAll({ raw: true });
   }).then( regions => {

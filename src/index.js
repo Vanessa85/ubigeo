@@ -1,38 +1,39 @@
 import regions from './regions.json'
 import districts from './districts.json'
 
-function getRegions () {
-  this.data = regions.map(item => _format(item.region))
-  return this
-}
-
-function include () {
-  let values = Object.values(arguments)
-
-  if (values.includes('provincies') || values.includes('districts')) {
-    this.data = this.data.map(item => {
-      item.provincies = values.includes('provincies') ? _getProvincies(item.code) : _getProvinciesWithDistricts(item.code)
-      return item
-    })
+class Ubigeo {
+  constructor () {
+    this.data = regions.map(item => _format(item.region))
   }
 
-  return this
-}
+  get () {
+    return this.data
+  }
 
-function find (keys) {
-  if (keys) {
-    if ('name' in keys) {
-      this.data = this.data.filter(item => item.name.toLowerCase() === keys.name.toLowerCase())
-    } else if ('code' in keys) {
-      this.data = this.data.filter(item => item.code === keys.code.toString())
+  include () {
+    let values = Object.values(arguments)
+
+    if (values.includes('provincies') || values.includes('districts')) {
+      this.data = this.data.map(item => {
+        item.provincies = values.includes('provincies') ? _getProvincies(item.code) : _getProvinciesWithDistricts(item.code)
+        return item
+      })
     }
+
+    return this
   }
 
-  return this
-}
+  find (keys) {
+    if (keys) {
+      if ('name' in keys) {
+        this.data = this.data.filter(item => item.name.toLowerCase() === keys.name.toLowerCase())
+      } else if ('code' in keys) {
+        this.data = this.data.filter(item => item.code === keys.code.toString())
+      }
+    }
 
-function get () {
-  return this.data
+    return this
+  }
 }
 
 function _format (item) {
@@ -60,9 +61,4 @@ function _getProvinciesWithDistricts (code) {
     })
 }
 
-module.exports = {
-  regions: getRegions,
-  include: include,
-  find: find,
-  get: get
-}
+module.exports = new Ubigeo()
