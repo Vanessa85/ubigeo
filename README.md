@@ -1,7 +1,7 @@
 # Ubigeo
 Provides data about regions, provincies and districts of the country Peru.
 
-Ubigeo son las siglas oficiales para Código de UBIcación GEOgráfica,1​ que usa el INEI para codificar las circunscripciones territoriales del Perú [wikipedia](https://es.wikipedia.org/wiki/Ubigeo).
+Ubigeo son las siglas oficiales para Código de UBIcación GEOgráfica, que usa el INEI para codificar las circunscripciones territoriales del Perú ([wikipedia](https://es.wikipedia.org/wiki/Ubigeo)).
 
 
 ## Install
